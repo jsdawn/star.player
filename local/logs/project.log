@@ -1,0 +1,254 @@
+2019-09-19T11:22:02.015Z - normal: Load ~/.CocosCreator/settings.json
+2019-09-19T11:22:02.078Z - normal: Initializing Asset Database
+2019-09-19T11:22:02.082Z - normal: checking language setting...
+2019-09-19T11:22:02.082Z - normal: Language: zh
+2019-09-19T11:22:02.734Z - success: preview server running at http://localhost:7456
+2019-09-19T11:22:02.774Z - success: protocol editor-framework registered
+2019-09-19T11:22:02.775Z - success: protocol app registered
+2019-09-19T11:22:02.775Z - success: protocol theme registered
+2019-09-19T11:22:02.775Z - success: protocol packages registered
+2019-09-19T11:22:02.775Z - success: protocol uuid registerred
+2019-09-19T11:22:02.775Z - success: protocol db registerred
+2019-09-19T11:22:02.776Z - success: protocol thumbnail registerred
+2019-09-19T11:22:02.776Z - success: protocol unpack registerred
+2019-09-19T11:22:02.776Z - success: protocol disable-commonjs registerred
+2019-09-19T11:22:02.947Z - normal: connected!
+2019-09-19T11:22:02.949Z - normal: Check project /Users/diggmind/cocos/start_project
+2019-09-19T11:22:02.950Z - normal: Initializing project /Users/diggmind/cocos/start_project
+2019-09-19T11:22:03.353Z - normal: Initializing Cocos2d
+2019-09-19T11:22:04.066Z - normal: Initializing engine extends
+2019-09-19T11:22:04.131Z - success: asset-db-debugger loaded
+2019-09-19T11:22:04.132Z - success: baidu-adapter loaded
+2019-09-19T11:22:04.133Z - success: color-picker loaded
+2019-09-19T11:22:04.220Z - success: fb-audience-network loaded
+2019-09-19T11:22:04.260Z - success: fb-live-stream loaded
+2019-09-19T11:22:04.263Z - success: google-play-instant loaded
+2019-09-19T11:22:04.268Z - success: huawei-runtime loaded
+2019-09-19T11:22:04.480Z - success: cpk-publish loaded
+2019-09-19T11:22:04.481Z - success: jsb-adapter loaded
+2019-09-19T11:22:04.485Z - success: oppo-runtime loaded
+2019-09-19T11:22:04.494Z - success: package-manager loaded
+2019-09-19T11:22:04.592Z - success: qqplay-adapter loaded
+2019-09-19T11:22:04.593Z - success: runtime-dev-tools loaded
+2019-09-19T11:22:04.603Z - success: sdkbox loaded
+2019-09-19T11:22:04.614Z - success: tester loaded
+2019-09-19T11:22:04.625Z - success: ui-grid loaded
+2019-09-19T11:22:04.653Z - success: ui-kit-preview-extra loaded
+2019-09-19T11:22:04.680Z - success: ui-kit-preview loaded
+2019-09-19T11:22:04.695Z - success: ui-kit loaded
+2019-09-19T11:22:04.708Z - success: ui-tree loaded
+2019-09-19T11:22:04.714Z - success: vivo-runtime loaded
+2019-09-19T11:22:04.714Z - success: weapp-adapter loaded
+2019-09-19T11:22:04.715Z - success: xiaomi-adapter loaded
+2019-09-19T11:22:04.767Z - success: assets loaded
+2019-09-19T11:22:04.779Z - success: builder loaded
+2019-09-19T11:22:05.019Z - success: cocos-services loaded
+2019-09-19T11:22:05.032Z - success: console loaded
+2019-09-19T11:22:05.075Z - success: fb-instant-games loaded
+2019-09-19T11:22:05.085Z - success: game-window loaded
+2019-09-19T11:22:05.086Z - success: google-instant-games loaded
+2019-09-19T11:22:05.099Z - success: hierarchy loaded
+2019-09-19T11:22:05.109Z - success: inspector loaded
+2019-09-19T11:22:05.110Z - success: keystore loaded
+2019-09-19T11:22:05.125Z - success: node-library loaded
+2019-09-19T11:22:05.126Z - success: package-asset loaded
+2019-09-19T11:22:05.128Z - success: preferences loaded
+2019-09-19T11:22:05.137Z - success: project-exporter loaded
+2019-09-19T11:22:05.150Z - success: project-importer loaded
+2019-09-19T11:22:05.161Z - success: project-settings loaded
+2019-09-19T11:22:05.173Z - success: scene loaded
+2019-09-19T11:22:05.175Z - success: simulator-debugger loaded
+2019-09-19T11:22:05.176Z - success: sprite-editor loaded
+2019-09-19T11:22:05.187Z - success: store loaded
+2019-09-19T11:22:05.205Z - success: timeline loaded
+2019-09-19T11:22:05.209Z - success: xiaomi-runtime loaded
+2019-09-19T11:22:06.849Z - info: Cocos Services load base data!
+2019-09-19T11:22:10.528Z - normal: Loading packages
+2019-09-19T11:22:10.534Z - normal: Watching packages
+2019-09-19T11:22:10.639Z - normal: Run Application
+2019-09-19T11:25:51.599Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:25:51.945Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:25:52.213Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:31:03.389Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:31:05.873Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:32:34.164Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/diggmind/cocos/start_project/build",
+  "debug": false,
+  "dest": "/Users/diggmind/cocos/start_project/build/web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "a402e894-4491-43f5-b52b-02073d708f20"
+  ],
+  "sourceMaps": false,
+  "startScene": "a402e894-4491-43f5-b52b-02073d708f20",
+  "template": "link",
+  "title": "star_Player",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "2a3351ca-e3b8-47",
+  "zipCompressJs": true,
+  "project": "/Users/diggmind/cocos/start_project",
+  "projectName": "star_Player",
+  "debugBuildWorker": false
+}
+2019-09-19T11:32:34.168Z - normal: Building /Users/diggmind/cocos/start_project
+2019-09-19T11:32:34.169Z - normal: Destination /Users/diggmind/cocos/start_project/build/web-desktop
+2019-09-19T11:32:34.297Z - normal: Delete /Users/diggmind/cocos/start_project/build/web-desktop/subpackages/**/*,/Users/diggmind/cocos/start_project/build/web-desktop/**/*
+2019-09-19T11:33:43.340Z - normal: Start building assets
+2019-09-19T11:33:43.341Z - normal: Start spawn build-worker
+2019-09-19T11:33:44.090Z - normal: Finish spawn build-worker
+2019-09-19T11:33:44.090Z - normal: Start init build-worker
+2019-09-19T11:33:47.538Z - normal: Finish init build-worker
+2019-09-19T11:33:47.539Z - normal: Start build-assets in worker
+2019-09-19T11:33:47.935Z - normal: Finish build-assets in worker
+2019-09-19T11:33:47.938Z - normal: Finish building assets
+2019-09-19T11:33:47.960Z - normal: Start building plugin scripts
+2019-09-19T11:33:48.061Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-09-19T11:33:48.086Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
+2019-09-19T11:33:48.114Z - normal: Built to "/Users/diggmind/cocos/start_project/build/web-desktop" successfully
+2019-09-19T11:37:16.532Z - info: 只有预制节点 "Star" 及其子节点会被保存。
+2019-09-19T11:37:49.659Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "/Users/diggmind/cocos/start_project/build",
+  "debug": false,
+  "dest": "/Users/diggmind/cocos/start_project/build/web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait",
+    "zip": false
+  },
+  "scenes": [
+    "a402e894-4491-43f5-b52b-02073d708f20"
+  ],
+  "sourceMaps": false,
+  "startScene": "a402e894-4491-43f5-b52b-02073d708f20",
+  "template": "link",
+  "title": "star_Player",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "separate_engine": false,
+    "subContext": ""
+  },
+  "xxteaKey": "2a3351ca-e3b8-47",
+  "zipCompressJs": true,
+  "project": "/Users/diggmind/cocos/start_project",
+  "projectName": "star_Player",
+  "debugBuildWorker": false
+}
+2019-09-19T11:37:49.664Z - normal: Building /Users/diggmind/cocos/start_project
+2019-09-19T11:37:49.665Z - normal: Destination /Users/diggmind/cocos/start_project/build/web-desktop
+2019-09-19T11:37:49.667Z - normal: Delete /Users/diggmind/cocos/start_project/build/web-desktop/subpackages/**/*,/Users/diggmind/cocos/start_project/build/web-desktop/**/*
+2019-09-19T11:37:52.232Z - normal: Start building assets
+2019-09-19T11:37:52.232Z - normal: Start spawn build-worker
+2019-09-19T11:37:53.328Z - normal: Finish spawn build-worker
+2019-09-19T11:37:53.328Z - normal: Start init build-worker
+2019-09-19T11:37:58.005Z - normal: Finish init build-worker
+2019-09-19T11:37:58.005Z - normal: Start build-assets in worker
+2019-09-19T11:37:58.551Z - normal: Finish build-assets in worker
+2019-09-19T11:37:58.556Z - normal: Finish building assets
+2019-09-19T11:37:58.566Z - normal: Start building plugin scripts
+2019-09-19T11:37:58.628Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-09-19T11:37:58.655Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
+2019-09-19T11:37:58.684Z - normal: Built to "/Users/diggmind/cocos/start_project/build/web-desktop" successfully
