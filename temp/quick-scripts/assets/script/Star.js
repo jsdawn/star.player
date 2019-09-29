@@ -22,7 +22,7 @@ cc.Class({
     pickRadius: 0
   },
 
-  // 计算星星与 player的距离
+  // func 计算星星与 player的距离
   getPlayerDistance: function getPlayerDistance() {
     // 根据 player 节点位置判断距离
     var playerPos = this.game.player.getPosition();
@@ -31,10 +31,12 @@ cc.Class({
     return dist;
   },
 
-  // 星星被收集
+  // func 星星被收集
   onPicked: function onPicked() {
     // 当星星被收集时，调用 Game 脚本中的接口，生成一个新的星星
     this.game.spawnNewStar();
+    // 电泳 Game 中的得分func
+    this.game.gainScore();
     // 然后销毁当前星星节点
     this.node.destroy();
   },
@@ -51,6 +53,10 @@ cc.Class({
       this.onPicked();
       return;
     }
+    // 根据 Game 脚本中的计时器更新星星的透明度
+    var opacityRatio = 1 - this.game.timer / this.game.starDuration;
+    var minOpacity = 50;
+    this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
   }
 });
 

@@ -25,18 +25,28 @@ cc.Class({
     // 最大移动速度
     maxMoveSpeed: 0,
     // 加速度
-    accel: 0
+    accel: 0,
+    jumpAudio: {
+      default: null,
+      type: cc.AudioClip
+    }
   },
-  // 上下运动
+  // func 上下运动
   setJumpAction: function setJumpAction() {
     // 跳跃上升
     var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
     // 下落
     var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
+    // 添加回调函数，用于在指定动作结束时调用
+    var callback = cc.callFunc(this.playJumpSound, this);
     // 不断重复
-    return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
+    return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
   },
-  // 键盘事件
+  // func 调用声音引擎播放声音
+  playJumpSound: function playJumpSound() {
+    cc.audioEngine.playEffect(this.jumpAudio, false);
+  },
+  // func 键盘事件
   onKeyDown: function onKeyDown(event) {
     switch (event.keyCode) {
       case cc.macro.KEY.a:
